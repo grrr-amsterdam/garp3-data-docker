@@ -1,4 +1,4 @@
 FROM busybox:latest
 MAINTAINER David Spreekmeester <david@grrr.nl>
-RUN mkdir /var/lib/mysql
+RUN mkdir -p /var/lib/mysql
 VOLUME /var/lib/mysql
